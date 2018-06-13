@@ -31,7 +31,7 @@
 
             <div class='main-pportfolio'>
                 <div class='text'>
-                    <h1 class="header">Check Out My <a class='sectionNav' href="https://github.com/tayloraj10" target="_blank">GitHub</a></h1>
+                    <h1 class="header">Check Out My <a class='sectionNav' href="https://github.com/tayloraj10" target="_blank">GitHub</a>!</h1>
 										<hr class="p-hr p-text">
                     <div class="report-card treehouse"></div>
                 </div>	
@@ -61,8 +61,6 @@
 										<hr class="p-hr p-text">
 										<h1 class="p-text">Python RDP Algorithm</h1>
 										
-										<!-- <a class='p-link p-nav' href="http://phlask.me/find-water/" target="_blank">See the Project</a>
-										<p class="p-nav p-bar"> | </p> -->
 										<a class='p-link p-nav' href="https://github.com/tayloraj10/RDP" target="_blank">See the Github Repo</a>
 										
 										<h4 class="p-text p-description">An implementation of the Ramer–Douglas–Peucker (RDP) algorithm, an 
@@ -80,7 +78,44 @@
 										</h4>
 										
 										<img class="p-picture" src="static/images/rdp.png">
-									</div>
+                                    </div>
+                                    
+                                    <div class="p-item geocode p-notfirst">
+                                        <hr class="p-hr p-text">
+                                        <h1 class="p-text">Python Geocoder</h1>
+                                                                        
+                                        <a class='p-link p-nav' href="https://github.com/tayloraj10/Geocoder" target="_blank">See the Github Repo</a>
+                                        
+                                        <h4 class="p-text p-description">A Python geocoding script that accepts a .csv file as input and geocodes
+                                            addresses using the Google Maps Geocoding API based on fields in the .csv that comprise addresses. 
+                                            Output is written into the same directory as the input file with "_geocoded" appended to the filename
+                                            and four new fields added: Full Address, Latitude, Longitude, and Geocode Quality.
+                                        </h4>                                          
+                                    </div>
+
+                                    <div class="p-item scraper p-notfirst">
+                                            <hr class="p-hr p-text">
+                                            <h1 class="p-text">Python Web Scraper</h1>
+                                                                            
+                                            <a class='p-link p-nav' href="https://github.com/tayloraj10/master_scraper" target="_blank">See the Github Repo</a>
+                                            
+                                            <h4 class="p-text p-description">This script contains a series of common web scraping patterns I've 
+                                                encountered while scraping store locations in my current position as a GIS Analyst. Because many store
+                                                directory pages have a similar HTML structure I combined the common scraping patterns I use into one file 
+                                                to allow me to assemble scrapers more quickly. 
+                                            </h4>
+                                            
+                                            <h4 class="p-text p-description p-lastpara">All of these scraping patterns rely on the BeautifulSoup 
+                                                scraping library. This script has to be modified to be used for a particular site and serves
+                                                as a template to build directory web scrapers. The build scraper function allows you 
+                                                to chain types of page scrapes as you move throughout a directory and is one of the two 
+                                                functions called when the script is run. Once you've reached the final page of a directory
+                                                the data_extract_scrape function can be used to select specific  HTMl elements on this page
+                                                or pages and store their values in variables. These values are then appended to a list of which
+                                                is later used to write to a .csv file. The last function of importance is the csv_write function
+                                                which writes to a specified file pathway the information scraped.
+                                            </h4>                                            
+                                        </div>
 									
 									
 <!--
